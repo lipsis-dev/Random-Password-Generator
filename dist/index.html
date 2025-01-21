@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <title>Random Password Generator</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-DtOLlcYq.css">
+</head>
+<body>
+<div class="container">
+    <div id="header">
+        <h1 class="titleOne">Generate a</h1>
+        <h2 class="titleTwo">random password</h2>
+        <p class="pOne">Never use an insecure password again.</p>
+    </div>
+    <div class="pass-condition">
+        <p class="titleThree">Number of Characters</p>
+        <div class="length-box">
+            <input type="radio" name="length" id="sixteen" checked="checked">
+            <label for="sixteen">16</label>
+
+            <input type="radio" name="length" id="twentyFour">
+            <label for="twentyFour">24</label>
+
+            <input type="radio" name="length" id="thirtyTwo">
+            <label for="thirtyTwo">32</label>
+        </div>
+        <button class="gen-btn" onclick="generateRandomPassword()">Generate passwords</button>
+    </div>
+    <div class="pageBreak"></div>
+    <div class="passBlocks">
+        <p id="passwordOne-el"></p>
+        <p id="passwordTwo-el"></p>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
